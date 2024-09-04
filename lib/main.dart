@@ -172,11 +172,6 @@ class _HomeState extends State<Home> {
                     'login with google',
                   ),
                 ),
-              if (joined && loggedIn)
-                ElevatedButton(
-                  onPressed: () {},
-                  child: Text('test transaction'),
-                ),
             ],
           ),
         ),
