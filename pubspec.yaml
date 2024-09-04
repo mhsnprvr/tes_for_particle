@@ -1,0 +1,22 @@
+name: pip_issue_test
+version: 1.0.2+22
+publish_to: none
+description: Pip issue test.
+environment:
+  sdk: ">=3.4.3 <4.0.0"
+
+dependencies:
+  get: ^4.6.5
+  flutter:
+    sdk: flutter
+  intl: ^0.19.0
+  get_storage: ^2.1.1
+  uuid: ^4.4.2
+  jitsi_meet_flutter_sdk:
+    path: ./jitsi_plugin
+  particle_auth_core: ^1.5.7
+
+dev_dependencies:
+
+flutter:
+  uses-material-design: true

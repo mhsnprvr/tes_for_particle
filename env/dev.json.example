@@ -1,0 +1,13 @@
+{
+  "environment": "dev",
+  "chainId": "*",
+  "cheerBooAddress": "*",
+  "minimumCheerBooAmount": "0.01",
+  "cheerBooTimeMultiplication": "30",
+  "projectId": "*",
+  "particleProjectId": "*",
+  "particleClientKey": "*",
+  "particleAppId": "*",
+  "jitsiServerUrl": "*",
+  "appStoreUrl": "https://play.google.com/store/apps/details?id=com.testapp"
+}
