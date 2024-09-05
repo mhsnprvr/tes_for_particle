@@ -1,6 +1,4 @@
-# podium
-
-## Getting Started
+# test for particle team
 
 in jitsi_plugin/android/build.gradle, change the line:
 url "D:/my_projects/podium_fihub/jitsi_plugin/android/libs"
