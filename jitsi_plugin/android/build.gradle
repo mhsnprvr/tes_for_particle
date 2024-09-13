@@ -17,15 +17,15 @@ buildscript {
 rootProject.allprojects {
     repositories {
         // maven { url 'file:/D:\\my_projects\\podium_fihub\\jitsi_plugin\\android\\libs' }
-        maven {
-            // url "D:\\\\my_projects\\\\podium_fihub\\\\jitsi_plugin\\\\android\\\\libs"
-            // url "file:/../libs"
-            // url "https://github.com/jitsi/jitsi-maven-repository/raw/master/releases"
-            url "D:/my_projects/podium_fihub/jitsi_plugin/android/libs"
-        }
-//        maven {
-//             url "https://github.com/jitsi/jitsi-maven-repository/raw/master/releases"
-//        }
+        // maven {
+        //     // url "D:\\\\my_projects\\\\podium_fihub\\\\jitsi_plugin\\\\android\\\\libs"
+        //     // url "file:/../libs"
+        //     // url "https://github.com/jitsi/jitsi-maven-repository/raw/master/releases"
+        //     url "D:/my_projects/podium_fihub/jitsi_plugin/android/libs"
+        // }
+       maven {
+            url "https://github.com/jitsi/jitsi-maven-repository/raw/master/releases"
+       }
         google()
         mavenCentral()
         maven { url 'https://www.jitpack.io' }
